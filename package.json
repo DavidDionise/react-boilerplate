@@ -1,0 +1,45 @@
+{
+  "name": "dl-weather-app",
+  "version": "1.0.0",
+  "description": "Sample Weather Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidDionise/dl-weather-app.git"
+  },
+  "author": "David Dionise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidDionise/dl-weather-app/issues"
+  },
+  "homepage": "https://github.com/DavidDionise/dl-weather-app/#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.1.2",
+    "@material-ui/icons": "^3.0.1",
+    "bluebird": "^3.5.2",
+    "date-fns": "^1.29.0",
+    "lodash": "^4.17.11",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-table": "^6.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
